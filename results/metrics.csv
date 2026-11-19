@@ -1,0 +1,9 @@
+﻿model,subset,n_samples,MAE_MPa,RMSE_MPa,R2
+LinearRegression,test_all,314,151.2,194.06,0.4003
+LinearRegression,test_tier:emk_spec_verified,137,118.42,143.82,-0.1719
+LinearRegression,test_tier:kaggle_measured,60,174.85,262.09,-0.0515
+LinearRegression,test_tier:nims_measured,117,177.44,204.03,-2.9821
+RandomForest,test_all,314,91.74,135.02,0.7097
+RandomForest,test_tier:emk_spec_verified,137,66.94,97.36,0.4629
+RandomForest,test_tier:kaggle_measured,60,141.02,219.36,0.2634
+RandomForest,test_tier:nims_measured,117,95.51,114.67,-0.258
