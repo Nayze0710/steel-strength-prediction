@@ -55,7 +55,6 @@ RANDOM_STATE = 42
 
 def load_data(path):
     # 读取原始 CSV 文件；只读不写，保证原始数据不被改动
-    # read raw csv, never modify the original file
     df = pd.read_csv(path)
     # 打印原始数据形状（行数、列数）与全部列名，便于核对字段是否与说明一致
     print("[1] raw data shape:", df.shape)
